@@ -1,11 +1,12 @@
 export class Blog {
 
     constructor(
-        id: string,
-        title: string,
-        content: string,
-        author: string,
-        description: string,
-        blogImage: string,
-        dateCreated: Date) {}
+        public id: number,
+        public title: string,
+        public content: string,
+        public author: string,
+        public description: string,
+        public blogImage: string,
+        public dateCreated: Date,
+        public featured: boolean) {}
 }
