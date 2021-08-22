@@ -88,6 +88,10 @@ h1, h2, h3, h4, h5, h6 {
   color: #727272;
 }
 
+.green {
+  background-color: #556B2F;
+}
+
 /*
  * Footer
  */
